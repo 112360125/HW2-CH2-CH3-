@@ -27,7 +27,7 @@ class Car {
             System.out.println("無法變更汽油量");   
         }
     }
-    void show() {
+    public void show() {
         System.out.println("車號是" + this.num);
         System.out.println("汽油量是" + this.gas);
     }
